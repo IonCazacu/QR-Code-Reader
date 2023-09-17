@@ -36,7 +36,7 @@
       getLinkInformations: function() {
         let postData = {
           key: '519cdbafa06d35dadf99bf7cdffd0202', // API key
-          q: this.data // qeury = URL
+          q: this.data
         };
 
         fetch('https://api.linkpreview.net', {

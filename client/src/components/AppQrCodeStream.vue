@@ -45,7 +45,7 @@
         ctx.closePath();
         ctx.stroke();
       },
-
+      
       onDetect: async function(detectedCode) {
         try {
           const result = await detectedCode;
